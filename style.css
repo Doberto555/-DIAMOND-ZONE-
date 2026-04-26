@@ -1,0 +1,29 @@
+/* HERO */ .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: radial-gradient(circle, #111, #000); animation: glow 3s infinite alternate; }
+
+@keyframes glow { from { box-shadow: 0 0 10px gold; } to { box-shadow: 0 0 40px gold; } }
+
+.logo { font-size: 40px; color: gold; animation: flicker 2s infinite; }
+
+@keyframes flicker { 0%,100% {opacity:1} 50% {opacity:0.6} }
+
+.tag { margin-top: 10px; color: #ccc; }
+
+.cta { margin-top: 20px; padding: 15px 30px; border: none; border-radius: 10px; background: gold; color: black; font-weight: bold; cursor: pointer; transition: 0.3s; }
+
+.cta:hover { transform: scale(1.1); background: orange; }
+
+/* SECTION */ .section { padding: 30px; }
+
+input, select { width: 100%; padding: 12px; margin-top: 10px; border-radius: 10px; border: none; background: #222; color: white; }
+
+button { width: 100%; padding: 15px; margin-top: 15px; border: none; border-radius: 10px; background: gold; color: black; font-weight: bold; }
+
+button:hover { background: orange; }
+
+/* FEATURES */ .features { display: flex; justify-content: space-around; padding: 20px; }
+
+.card { background: #111; padding: 20px; border-radius: 15px; box-shadow: 0 0 10px gold; transition: 0.3s; }
+
+.card:hover { transform: translateY(-10px); }
+
+footer { text-align: center; padding: 20px; }
